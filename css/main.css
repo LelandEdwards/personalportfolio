@@ -5,50 +5,29 @@ body {
   font-family: 'Poppins' , 'Arial';
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 25%;
-}
-
-.nav-container {
+.topnav {
   background: #0B8DA7;
+  overflow: hidden;
 }
 
-.nav-container a {
-  color: white;
+.topnav a {
+  float: left;
+  color: #9dbdda;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2em;
+.topnav-right {
+  float: right;
 }
 
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.topnav-right img {
+  width: 40%;
 }
 
-header ul a {
-  display: block;
-  padding: 0 1em;
-}
-
-.social-header, .herodesign, .herodesign2, .herodesign3 {
+.herodesign, .herodesign2, .herodesign3 {
   display: none;
 }
 
